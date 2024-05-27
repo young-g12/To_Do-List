@@ -1,0 +1,18 @@
+#todo-list {
+    margin-top: 10px;
+}
+#todo-input {
+    margin-bottom: 5px;
+}
+.todo {
+    margin-bottom: 10px;
+    opacity: 0;
+    -webkit-animation: fadeIn .5s linear forwards;
+    -moz-animation: fadeIn .5s linear forwards;
+    animation: fadeIn .5s linear forwards;
+}
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
